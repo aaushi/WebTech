@@ -1,0 +1,38 @@
+/*  Write your code here. */
+
+/* Delete this ruleset. */
+:root{
+    --circle_thickness:25px
+  }
+  div{
+    border-radius: 50%;
+  }
+  #outer {
+    --outer_size:calc(var(--circle_thickness)*8);
+    background-color: #ffa500;
+    border: var(--circle_thickness) solid #ff0000;
+    height: var(--outer_size);
+    width: var(--outer_size);
+    padding: var(--circle_thickness)
+    
+  }
+  #middle {
+    --middle_size:calc(var(--circle_thickness)*4);
+    background-color: #008000;
+    border:var(--circle_thickness) solid #ffff00;
+    height: var( --middle_size);
+    width: var( --middle_size);
+    padding: var(--circle_thickness);
+   
+    
+  }
+  
+  #inner {
+    --inner_size:calc(var(--circle_thickness)*2);
+    background-color: #800080;
+    border: var(--circle_thickness) solid #0000ff;
+    height: var( --inner_size);
+    width: var( --inner_size);
+  }
+  
+  
