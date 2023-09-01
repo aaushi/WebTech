@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./src/CSS/rainbowCircle/index.html",
-    "build": "parcel build ./src/CSS/rainbowCircle/index.html"
+    "start": "parcel ./src/CSS/navbar/index2.html",
+    "build": "parcel build ./src/CSS/navbar/index2.html"
   },
   "devDependencies": {
     "parcel": "^2.0.0"
